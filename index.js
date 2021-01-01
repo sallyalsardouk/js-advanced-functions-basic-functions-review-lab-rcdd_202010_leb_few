@@ -27,3 +27,4 @@ let Calculator = {
         return x/y
     }
 }
+function actionApplyer(a,[])
