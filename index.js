@@ -27,8 +27,8 @@ let Calculator = {
         return x/y
     }
 }
-function actionApplyer(a,arr){
-  a=start
+function actionApplyer(start,arr){
+ let a=start
    for (let i = 0; i < arr.length; i++ ){
     a = arr[i](a)
   }
