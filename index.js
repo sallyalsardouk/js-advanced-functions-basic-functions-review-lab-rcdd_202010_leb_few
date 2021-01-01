@@ -29,5 +29,11 @@ let Calculator = {
 }
 function actionApplyer(a,arr){
   a=start
+   for (let i = 0; i < arr.length; i++ ){
+    a = arr[i](a)
+  }
+
+  return a
+}
   
 }
