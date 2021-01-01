@@ -27,4 +27,7 @@ let Calculator = {
         return x/y
     }
 }
-function actionApplyer(a,[])
+function actionApplyer(a,arr){
+  a=start
+  
+}
